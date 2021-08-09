@@ -12,11 +12,6 @@ enableScreens();
 export default function App() {
   const [fontLoaded, setfontLoaded] = useState(false);
 
-
-
-
-
-
   const fetchFonts = () => {
     Font.loadAsync({
       'open-sans': require('./assets/fonts/OpenSans-Regular.ttf'),
